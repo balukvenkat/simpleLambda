@@ -21,7 +21,7 @@ public class HelloController {
 
 
         LOG.info("Request Count: "+i);
-        LOG.info(" name: "+i);
+        LOG.info(" name: "+name);
         return new Greeting(i, String.format(template, name));
     }
 }
